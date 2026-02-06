@@ -1,0 +1,302 @@
+[
+  {
+    "patient_id": "PATIENT001",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT001/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT001/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT002",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT002/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT002/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT003",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT003/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT003/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT004",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT004/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT004/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT005",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT005/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT005/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT006",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT006/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT006/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT007",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT007/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT007/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT008",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT008/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT008/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT009",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT009/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT009/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT010",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT010/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT010/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT011",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT011/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT011/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT012",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT012/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT012/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT013",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT013/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT013/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT014",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT014/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT014/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT015",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT015/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT015/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT016",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT016/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT016/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT017",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT017/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT017/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT018",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT018/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT018/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT019",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT019/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT019/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT020",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT020/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT020/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT021",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT021/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT021/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT022",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT022/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT022/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT023",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT023/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT023/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT024",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT024/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT024/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT025",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT025/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT025/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT026",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT026/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT026/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT027",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT027/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT027/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT028",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT028/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT028/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT029",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT029/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT029/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT030",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT030/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT030/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT031",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT031/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT031/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT032",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT032/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT032/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT033",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT033/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT033/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT034",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT034/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT034/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT035",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT035/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT035/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT036",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT036/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT036/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT037",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT037/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT037/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT038",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT038/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT038/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT039",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT039/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT039/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT040",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT040/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT040/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT041",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT041/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT041/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT042",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT042/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT042/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT043",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT043/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT043/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT044",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT044/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT044/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT045",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT045/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT045/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT046",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT046/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT046/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT047",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT047/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT047/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT048",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT048/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT048/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT049",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT049/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT049/R2.fastq.gz",
+    "skip_alignment": false
+  },
+  {
+    "patient_id": "PATIENT050",
+    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT050/R1.fastq.gz",
+    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT050/R2.fastq.gz",
+    "skip_alignment": false
+  }
+]

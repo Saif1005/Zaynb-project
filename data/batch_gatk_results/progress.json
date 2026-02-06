@@ -1,0 +1,15 @@
+{
+  "processed": [],
+  "failed": [
+    "PATIENT001",
+    "PATIENT002",
+    "PATIENT004",
+    "PATIENT005",
+    "PATIENT007",
+    "PATIENT008",
+    "PATIENT010",
+    "PATIENT011",
+    "PATIENT013",
+    "PATIENT014"
+  ]
+}
