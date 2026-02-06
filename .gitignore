@@ -39,6 +39,9 @@ env/
 .env.example
 
 # Data
+data/batch_gatk_50_results
+data/batch_gatk_results
+data/batch_processing
 data/patients/
 data/training/
 data/fastq_downloads/
