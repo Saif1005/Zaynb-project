@@ -36,17 +36,23 @@ env/
 # Environment
 .env
 .env.local
+.env.example
 
 # Data
 data/patients/
 data/training/
+data/fastq_downloads/
 work/
 results/
+test_data/
 *.fastq
 *.fastq.gz
 *.bam
 *.vcf
 *.vcf.gz
+*.sra
+*.sra.tmp
+*.prf
 
 # Logs
 *.log
@@ -54,9 +60,11 @@ logs/
 
 # Terraform
 .terraform/
+terraform/.terraform/
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
+terraform-provider-*
 
 # AWS
 .aws/
@@ -94,3 +102,7 @@ htmlcov/
 *.lock
 *.prf
 *.sra
+
+# Large files that shouldn't be in Git
+docs/*.pdf
+!docs/README.md
