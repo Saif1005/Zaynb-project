@@ -1,0 +1,13 @@
+# Dépendances LLM — g4dn.xlarge (CUDA 11.8 / driver T4)
+# Installation: pip install -r requirements-llm.txt
+# ou: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+transformers>=4.36.2
+peft>=0.7.1
+accelerate>=0.25.0
+sacremoses>=0.1.1

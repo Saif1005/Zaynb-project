@@ -1,0 +1,48 @@
+import type { EdgePair } from './architectureDiagram';
+
+function edgeMatches(edgeId: string, from: string, to: string): boolean {
+  const id = edgeId.toUpperCase();
+  return id.includes(from.toUpperCase()) && id.includes(to.toUpperCase());
+}
+
+function isAgentEdge(edgeId: string): boolean {
+  const id = edgeId.toUpperCase();
+  if (/S\d/.test(id)) return false;
+  return /CLIENT|MASTER|AG\d/.test(id);
+}
+
+function isPipelineEdge(edgeId: string): boolean {
+  return /S\d.*S\d/.test(edgeId.toUpperCase());
+}
+
+/** Ajoute les classes .data-flow-path sur les chemins SVG générés par Mermaid */
+export function annotateDataFlowPaths(
+  container: HTMLElement,
+  activePairs: EdgePair[] = []
+): void {
+  const edgeGroups = container.querySelectorAll<SVGGElement>('.edgePaths g.edgePath');
+
+  edgeGroups.forEach((group) => {
+    const path = group.querySelector<SVGPathElement>('path');
+    if (!path) return;
+
+    const edgeId = group.id ?? '';
+    path.classList.remove(
+      'data-flow-path',
+      'data-flow-path--agent',
+      'data-flow-path--pipeline',
+      'data-flow-path--active'
+    );
+
+    if (isAgentEdge(edgeId)) {
+      path.classList.add('data-flow-path', 'data-flow-path--agent');
+    } else if (isPipelineEdge(edgeId)) {
+      path.classList.add('data-flow-path', 'data-flow-path--pipeline');
+    }
+
+    const isActive = activePairs.some(([from, to]) => edgeMatches(edgeId, from, to));
+    if (isActive) {
+      path.classList.add('data-flow-path--active');
+    }
+  });
+}

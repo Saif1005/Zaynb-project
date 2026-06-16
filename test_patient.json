@@ -1,8 +1,0 @@
-[
-  {
-    "patient_id": "PATIENT001",
-    "fastq_r1_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT001/R1.fastq.gz",
-    "fastq_r2_s3": "s3://genomic-cancer-pipeline-input-dev-622994489865/patients/PATIENT001/R2.fastq.gz",
-    "skip_alignment": false
-  }
-]

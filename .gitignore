@@ -1,111 +1,29 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
-genomic-env/
-venv/
-ENV/
-env/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Environment
+# Secrets
 .env
-.env.local
-.env.example
-
-# Data
-data/batch_gatk_50_results
-data/batch_gatk_results
-data/batch_processing
-data/patients/
-data/training/
-data/fastq_downloads/
-work/
-results/
-test_data/
-*.fastq
-*.fastq.gz
-*.bam
-*.vcf
-*.vcf.gz
-*.sra
-*.sra.tmp
-*.prf
-
-# Logs
-*.log
-logs/
-
-# Terraform
-.terraform/
-terraform/.terraform/
-*.tfstate
-*.tfstate.*
-.terraform.lock.hcl
-terraform-provider-*
-
-# AWS
-.aws/
+.env.*
+!.env.example
 *.pem
 *.key
-*.p12
 
-# SSH Keys
-*.ssh
-id_rsa*
-*.ppk
-
-# Docker
-*.dockerignore
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Terraform backend (peut contenir des secrets)
-terraform.tfbackend
-
-# Python cache et builds
+# Python
+__pycache__/
 *.pyc
+.venv/
+venv/
 .pytest_cache/
-.coverage
-htmlcov/
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
+# Node
+Frontend/node_modules/
+Frontend/.next/
 
-# Temporary files
-*.tmp
-*.lock
-*.prf
-*.sra
+# Data / genomics
+*.fastq*
+*.bam
+*.vcf*
+*.fa
+*.fa.fai
 
-# Large files that shouldn't be in Git
-docs/*.pdf
-!docs/README.md
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

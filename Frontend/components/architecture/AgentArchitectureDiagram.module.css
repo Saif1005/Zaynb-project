@@ -1,0 +1,233 @@
+/* ── Conteneur diagramme ── */
+.root {
+  --flow-agent: #0ea5e9;
+  --flow-pipeline: #f59e0b;
+  --flow-idle: #334155;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  color: #f8fafc;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.status {
+  font-family: ui-monospace, 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: #94a3b8;
+}
+
+.btn {
+  padding: 0.6rem 1.25rem;
+  background: linear-gradient(135deg, #7c3aed, #6d28d9);
+  color: #fff;
+  border: none;
+  border-radius: 0.625rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+}
+
+.btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.diagramHost {
+  overflow: auto;
+  min-height: 420px;
+}
+
+.diagramHost svg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── Cadres Mermaid : fixes, sans animation ── */
+.diagramHost :global(.node rect),
+.diagramHost :global(.node polygon),
+.diagramHost :global(.node circle) {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* ── Flèches au repos ── */
+.diagramHost :global(.edgePath path) {
+  stroke: var(--flow-idle) !important;
+  stroke-width: 1.5px !important;
+  opacity: 0.45;
+  stroke-dasharray: none;
+  animation: none;
+}
+
+/* ── Classe injectée post-render : flux de données ── */
+@keyframes dataFlowAgent {
+  from {
+    stroke-dashoffset: 28;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dataFlowPipeline {
+  from {
+    stroke-dashoffset: 20;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.diagramHost :global(path.data-flow-path--active.data-flow-path--agent) {
+  stroke: var(--flow-agent) !important;
+  stroke-width: 3px !important;
+  stroke-dasharray: 12 6 !important;
+  opacity: 1 !important;
+  filter: drop-shadow(0 0 6px rgba(14, 165, 233, 0.75));
+  animation: dataFlowAgent 0.55s linear infinite;
+}
+
+.diagramHost :global(path.data-flow-path--active.data-flow-path--pipeline) {
+  stroke: var(--flow-pipeline) !important;
+  stroke-width: 3px !important;
+  stroke-dasharray: 8 4 !important;
+  opacity: 1 !important;
+  filter: drop-shadow(0 0 6px rgba(245, 158, 11, 0.65));
+  animation: dataFlowPipeline 0.7s linear infinite;
+}
+
+/* ── Particules de données sur la flèche active ── */
+.particleLayer {
+  pointer-events: none;
+}
+
+.banner {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.625rem;
+  font-family: ui-monospace, 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.25);
+  color: #64748b;
+}
+
+.bannerActive {
+  border-color: rgba(14, 165, 233, 0.35);
+  background: rgba(14, 165, 233, 0.08);
+  color: #bae6fd;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.78rem;
+  color: #94a3b8;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legendSwatchAgent,
+.legendSwatchPipeline {
+  width: 28px;
+  height: 3px;
+  border-radius: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    currentColor 0 6px,
+    transparent 6px 10px
+  );
+}
+
+.legendSwatchAgent {
+  color: var(--flow-agent);
+  animation: dataFlowAgent 0.8s linear infinite;
+}
+
+.legendSwatchPipeline {
+  color: var(--flow-pipeline);
+  animation: dataFlowPipeline 0.85s linear infinite;
+}
+
+.sidebar {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  background: rgba(124, 58, 237, 0.08);
+}
+
+.sidebarTag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--flow-agent);
+}
+
+.sidebarTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.35rem 0;
+}
+
+.sidebarDesc {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+.error {
+  color: #fca5a5;
+  font-size: 0.875rem;
+  padding: 1rem;
+}
+
+.loading {
+  color: #94a3b8;
+  font-size: 0.875rem;
+  padding: 2rem;
+  text-align: center;
+}
